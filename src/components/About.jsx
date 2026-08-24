@@ -99,7 +99,7 @@ export default function About() {
                 />
 
                 <img
-                  src="/sakib-photo.jpg"
+                  src={`${import.meta.env.BASE_URL}sakib-photo.jpg`}
                   alt="Sakib Ansari - Frontend & WordPress Developer"
                   loading="lazy"
                   style={{ width: "100%", height: "460px", objectFit: "cover", objectPosition: "top center" }}

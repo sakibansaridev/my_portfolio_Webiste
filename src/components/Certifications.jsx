@@ -32,7 +32,7 @@ export default function Certifications() {
           </div>
 
           <a
-            href="/danstring-internship-certificate.pdf"
+            href={`${import.meta.env.BASE_URL}danstring-internship-certificate.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-dark"
